@@ -1,11 +1,9 @@
 import { useState } from "react";
 
 function Navbar() {
-
     const [showMenu, setShowMenu] = useState(1);
 
     const toggleMenu = () => document.querySelector('.nav-links').classList.toggle('active');
-    
 
   return (
     <nav>
